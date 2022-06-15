@@ -16,11 +16,14 @@
     <link rel="stylesheet" href="/css/main.css"> <!-- change to match your file/naming structure -->
     <script src="/webjars/jquery/jquery.min.js"></script>
     <script src="/webjars/bootstrap/js/bootstrap.min.js"></script>
+    
 </head>
 <body>
+	♥♥♥♥
    <h1>Hello John</h1>
+
    <h2>Would you like to grab a drink?</h2>
-   ♥♥♥
+   ♥♥♥♥
    <h1>Fruit Store</h1>
     <table>
         <tablehead>
