@@ -19,11 +19,11 @@
     
 </head>
 <body>
-	♥♥♥♥
+	♥♥♥♥	&#x1F498;
    <h1>Hello John</h1>
 
    <h2>Would you like to grab a drink?</h2>
-   ♥♥♥♥
+   ♥♥♥♥ 	&#x1F498;
    <h1>Fruit Store</h1>
     <table>
         <tablehead>
