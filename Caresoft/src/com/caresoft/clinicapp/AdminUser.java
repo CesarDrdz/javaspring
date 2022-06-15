@@ -8,17 +8,14 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
 //	Member Variables
     private Integer employeeID;
     private String role;
-    private ArrayList<String> securityIncidents;
+    private ArrayList<String> securityIncidents = new ArrayList<String>();
     
-    // TO DO: Implement a constructor that takes an ID and a role
+    // constructor
     	public AdminUser(Integer id,String  role){
     		super(id);
     		this.role = role;
     	}
-    // TO DO: Implement HIPAACompliantUser!
-    
-    // TO DO: Implement HIPAACompliantAdmin!
-    
+//   methods
     public void newIncident(String notes) {
         String report = String.format(
             "Datetime Submitted: %s \n,  Reported By ID: %s\n Notes: %s \n", 
@@ -61,7 +58,9 @@ public class AdminUser extends User implements HIPAACompliantUser, HIPAAComplian
 	}
 	@Override
 	public ArrayList<String> reportSecurityIncidents() {
-		// TODO Auto-generated method stub
+		if (securityIncidents.size()!= 0) {
+			return securityIncidents;
+		}
 		return null;
 	}
 	
